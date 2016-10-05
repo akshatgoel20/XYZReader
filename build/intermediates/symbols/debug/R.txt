@@ -672,10 +672,12 @@ int drawable ic_arrow_back 0x7f020058
 int drawable ic_share 0x7f020059
 int drawable logo 0x7f02005a
 int drawable navigation_empty_icon 0x7f02005b
-int drawable notification_template_icon_bg 0x7f02005f
-int drawable padded_divider 0x7f02005c
-int drawable photo_background_protection 0x7f02005d
-int drawable white_selectable_item_background_circle 0x7f02005e
+int drawable night 0x7f02005c
+int drawable notification_template_icon_bg 0x7f020061
+int drawable padded_divider 0x7f02005d
+int drawable photo_background_protection 0x7f02005e
+int drawable white_selectable_item_background_circle 0x7f02005f
+int drawable windmill 0x7f020060
 int fraction detail_body_line_spacing_multiplier 0x7f0a0000
 int id action0 0x7f0d008a
 int id action_bar 0x7f0d005e
