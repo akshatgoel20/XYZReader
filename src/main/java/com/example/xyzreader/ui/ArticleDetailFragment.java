@@ -10,6 +10,7 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.ShareCompat;
 import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AppCompatActivity;
@@ -55,6 +56,7 @@ public class ArticleDetailFragment extends Fragment implements
     private int mScrollY;
     private boolean mIsCard = false;
     private int mStatusBarFullOpacityBottom;
+    private CollapsingToolbarLayout collapsingToolbarLayout ;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -104,6 +106,8 @@ public class ArticleDetailFragment extends Fragment implements
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         mRootView = inflater.inflate(R.layout.fragment_article_detail, container, false);
+        collapsingToolbarLayout = (CollapsingToolbarLayout) mRootView.findViewById(R.id.article_detail_toolbar);
+
 
         toolbar = (Toolbar) mRootView.findViewById(R.id.toolbar);
         mScrollView = (ObservableScrollView) mRootView.findViewById(R.id.scrollview);
@@ -126,14 +130,14 @@ public class ArticleDetailFragment extends Fragment implements
 
         setupToolbar();
         bindViews();
-        updateStatusBar();
+       // updateStatusBar();
         return mRootView;
     }
 
     private void setupToolbar() {
         toolbar.setTitle("");
         ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
 
     private void updateStatusBar() {
@@ -200,6 +204,8 @@ public class ArticleDetailFragment extends Fragment implements
                                 mPhotoView.setImageBitmap(imageContainer.getBitmap());
                                 mRootView.findViewById(R.id.meta_bar)
                                         .setBackgroundColor(mMutedColor);
+                                if (collapsingToolbarLayout != null)
+                                    collapsingToolbarLayout.setContentScrimColor(mMutedColor);
                                 updateStatusBar();
                             }
                         }

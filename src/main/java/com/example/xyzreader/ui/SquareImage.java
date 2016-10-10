@@ -17,8 +17,11 @@ public class SquareImage extends ImageView {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-        int width = getMeasuredWidth();
-        setMeasuredDimension(width, width);
+        int measuredWidth = getMeasuredWidth();
+
+        //two by three height image view
+        int measuredHeight = (int) (measuredWidth * (2f / 3f));
+        setMeasuredDimension(measuredWidth, measuredHeight);
     }
 
     public SquareImage(Context context, AttributeSet attrs, int defStyleAttr) {

@@ -8,6 +8,7 @@
     android:fillViewport="true"
     android:paddingBottom="16dp"
     android:paddingTop="16dp"
+    android:background="@android:color/white"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <FrameLayout
@@ -17,7 +18,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:background="#fff"
             android:elevation="2dp"
             android:maxWidth="@dimen/detail_card_max_width"
             android:orientation="vertical">
