@@ -9,6 +9,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.RemoteException;
+import android.support.annotation.IntDef;
 import android.text.format.Time;
 import android.util.Log;
 
@@ -18,11 +19,14 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
 import java.util.ArrayList;
 
 public class UpdaterService extends IntentService {
     private static final String TAG = "UpdaterService";
-
+    public static final String ARTICLES_STATUS
+            = "articles_status";
     public static final String BROADCAST_ACTION_STATE_CHANGE
             = "com.example.xyzreader.intent.action.STATE_CHANGE";
     public static final String EXTRA_REFRESHING
@@ -83,5 +87,22 @@ public class UpdaterService extends IntentService {
 
         sendStickyBroadcast(
                 new Intent(BROADCAST_ACTION_STATE_CHANGE).putExtra(EXTRA_REFRESHING, false));
+    }
+
+    @Retention(RetentionPolicy.SOURCE)
+    @IntDef(value = {ARTICLES_STATUS_UNKNOWN, ARTICLES_STATUS_SUCCESS, ARTICLES_STATUS_SERVER_ERROR, ARTICLES_STATUS_NETWORK_ERROR})
+    public @interface ArticlesStatus {
+    }
+
+    public static final int ARTICLES_STATUS_UNKNOWN = 0;
+    public static final int ARTICLES_STATUS_NETWORK_ERROR = 1;
+    public static final int ARTICLES_STATUS_SUCCESS = 2;
+    public static final int ARTICLES_STATUS_SERVER_ERROR = 3;
+
+    private void sendStateChangeBroadcast(@ArticlesStatus int articlesStatus, boolean refreshState) {
+        Intent actionStateChangeBroadcastIntent = new Intent(BROADCAST_ACTION_STATE_CHANGE);
+        actionStateChangeBroadcastIntent.putExtra(EXTRA_REFRESHING, refreshState);
+        actionStateChangeBroadcastIntent.putExtra(ARTICLES_STATUS, articlesStatus);
+        sendStickyBroadcast(actionStateChangeBroadcastIntent);
     }
 }

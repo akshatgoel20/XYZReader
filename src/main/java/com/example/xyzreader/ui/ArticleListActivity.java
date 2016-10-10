@@ -10,6 +10,8 @@ import android.database.Cursor;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.RecyclerView;
@@ -40,6 +42,8 @@ public class ArticleListActivity extends ActionBarActivity implements
     private Toolbar mToolbar;
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private RecyclerView mRecyclerView;
+    private Snackbar snackbar ;
+    private CoordinatorLayout coordinatorLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,8 +59,8 @@ public class ArticleListActivity extends ActionBarActivity implements
         collapsingToolbarLayout.setTitle(this.getResources().getString(R.string.app_name));
         collapsingToolbarLayout.setExpandedTitleColor(Color.TRANSPARENT);
         collapsingToolbarLayout.setCollapsedTitleTextColor(Color.WHITE);
-
-
+        coordinatorLayout = (CoordinatorLayout)findViewById(R.id.coord);
+        snackbar =Snackbar.make(coordinatorLayout, "XYZ reader updated.", Snackbar.LENGTH_SHORT);
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
 
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
@@ -97,6 +101,10 @@ public class ArticleListActivity extends ActionBarActivity implements
     };
 
     private void updateRefreshingUI() {
+        if(mIsRefreshing == false){
+            snackbar.show();
+        }
+
         mSwipeRefreshLayout.setRefreshing(mIsRefreshing);
     }
 
@@ -115,6 +123,8 @@ public class ArticleListActivity extends ActionBarActivity implements
                 new StaggeredGridLayoutManager(columnCount, StaggeredGridLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(sglm);
     }
+
+
 
     @Override
     public void onLoaderReset(Loader<Cursor> loader) {
