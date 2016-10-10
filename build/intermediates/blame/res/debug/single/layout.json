@@ -12,12 +12,16 @@
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_screen_content_include.xml"
     },
     {
+        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
         "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_alert_dialog_button_bar_material.xml"
+        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/collapsing_toolbar.xml",
+        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/src/main/res/layout/collapsing_toolbar.xml"
     },
     {
         "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
@@ -40,12 +44,12 @@
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/src/main/res/layout/activity_article_list.xml"
     },
     {
-        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
-        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_navigation_item_header.xml"
-    },
-    {
         "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_navigation_item_header.xml"
     },
     {
         "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
@@ -72,20 +76,24 @@
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_media.xml"
     },
     {
+        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
         "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/fragment_article_detail.xml",
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/src/main/res/layout/fragment_article_detail.xml"
     },
     {
-        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/select_dialog_multichoice_material.xml"
+        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_navigation_item.xml"
     },
     {
         "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
-        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_navigation_item.xml"
+        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/article_body.xml",
+        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/src/main/res/layout/article_body.xml"
     },
     {
         "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
@@ -96,16 +104,12 @@
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
-        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_lines.xml"
-    },
-    {
         "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_layout_tab_text.xml"
     },
     {
-        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/layout_snackbar_include.xml",
-        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/layout/layout_snackbar_include.xml"
+        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_lines.xml"
     },
     {
         "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
@@ -152,24 +156,20 @@
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/activity_article_detail.xml",
-        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/src/main/res/layout/activity_article_detail.xml"
-    },
-    {
         "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml",
-        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_simple_dropdown_hint.xml"
-    },
-    {
-        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
-        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_media_cancel_action.xml"
+        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/activity_article_detail.xml",
+        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/src/main/res/layout/activity_article_detail.xml"
     },
     {
         "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/list_item_article.xml",
@@ -192,6 +192,10 @@
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/detail_photo.xml",
+        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/src/main/res/layout/detail_photo.xml"
+    },
+    {
         "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_big_media.xml"
     },
@@ -208,12 +212,16 @@
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_navigation_menu.xml"
     },
     {
-        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
+        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/article_heading.xml",
+        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/src/main/res/layout/article_heading.xml"
     },
     {
         "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
@@ -226,9 +234,5 @@
     {
         "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/res/merged/debug/layout/layout_snackbar.xml",
-        "source": "/Users/akshat/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/layout/layout_snackbar.xml"
     }
 ]
