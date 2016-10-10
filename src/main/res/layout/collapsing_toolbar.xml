@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     android:title=""
     app:layout_scrollFlags="scroll|exitUntilCollapsed"
+    android:fitsSystemWindows="true"
     app:title=""
     app:titleEnabled="false">
     <include layout="@layout/detail_photo" />
@@ -13,7 +14,6 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        app:layout_scrollFlags="exitUntilCollapsed"
         android:layout_height="?attr/actionBarSize"
         app:layout_collapseMode="pin" />
 
